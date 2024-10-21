@@ -88,7 +88,7 @@ Page {
         maximumValue: 20.0
         minimumValue: 2.0
         value: 15.0
-        valueText: "Current zoom: " + value
+        valueText: qsTr("Current zoom") + ": " + value
         valueLabelColor: palette.highlightDimmerColor
         stepSize: 0.5
         highlighted: false
@@ -102,8 +102,6 @@ Page {
         width: Theme.itemSizeSmall
         height: Theme.itemSizeSmall
         anchors {
-//            bottom: parent.bottom
-//            bottomMargin: Theme.paddingLarge
             verticalCenter: slider.verticalCenter
             right: parent.right
             rightMargin: Theme.paddingLarge
