@@ -56,7 +56,6 @@ Page {
         }
 
         zoomLevel: slider.value
-
     }
 
     Slider {
@@ -75,9 +74,9 @@ Page {
         maximumValue: 20.0
         minimumValue: 2.0
         value: 15.0
-        valueText: qsTr("Current zoom") + ": " + value.toFixed(1)
+        valueText: qsTr("Current zoom") + ": " + value.toFixed(2)
         valueLabelColor: palette.highlightDimmerColor
-        stepSize: 0.5
+        stepSize: 0.05 // 0.5
         highlighted: false
     }
 
