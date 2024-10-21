@@ -10,7 +10,7 @@ Page {
         id: positionSource
         updateInterval: 100
         nmeaSource: Qt.resolvedUrl("../../nmea/path.nmea")
-        active: true
+        active: false
     }
 
     Component.onCompleted: {
