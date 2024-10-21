@@ -63,7 +63,6 @@ Page {
 
         zoomLevel: slider.value
 
-
         // ToDo: add binding of the map center to the position coordinate
 
         // ToDo: create MouseArea to handle clicks and holds
