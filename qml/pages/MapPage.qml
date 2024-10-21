@@ -10,7 +10,7 @@ Page {
         id: positionSource
         updateInterval: 100
         nmeaSource: Qt.resolvedUrl("../../nmea/path.nmea")
-        active: false
+        active: false // true
     }
 
     Component.onCompleted: {
@@ -28,8 +28,6 @@ Page {
     Map {
         id: map
         anchors.fill: parent
-
-        // ToDo: define plugin to work with OSM
 
         plugin: Plugin {
             id: mapPlugin
@@ -57,19 +55,9 @@ Page {
             visible: positionSource.active
         }
 
-        // ToDo: enable gesture recognition
-
-        // ToDo: bind zoomLevel property to slider value
-
         zoomLevel: slider.value
 
-        // ToDo: add binding of the map center to the position coordinate
-
-        // ToDo: create MouseArea to handle clicks and holds
-
     }
-
-    // ToDo: add a slider to control zoom level
 
     Slider {
         id: slider
@@ -87,15 +75,11 @@ Page {
         maximumValue: 20.0
         minimumValue: 2.0
         value: 15.0
-        valueText: qsTr("Current zoom") + ": " + value
+        valueText: qsTr("Current zoom") + ": " + value.toFixed(1)
         valueLabelColor: palette.highlightDimmerColor
         stepSize: 0.5
         highlighted: false
     }
-
-    // ToDo: add a component corresponding to MapQuickCircle
-
-    // ToDo: add item at the current position
 
     IconButton {
         width: Theme.itemSizeSmall
