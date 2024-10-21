@@ -10,41 +10,54 @@
     </message>
 </context>
 <context>
+    <name>MapPage</name>
+    <message>
+        <location filename="../qml/pages/MapPage.qml" line="85"/>
+        <source>zoom</source>
+        <translation>масштаб</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MapPage.qml" line="90"/>
+        <source>Current zoom</source>
+        <translation>Текущий масштаб</translation>
+    </message>
+</context>
+<context>
     <name>PositioningPage</name>
     <message>
         <location filename="../qml/pages/PositioningPage.qml" line="32"/>
         <source>Timestamp</source>
-        <translation type="unfinished"></translation>
+        <translation>Временная метка</translation>
     </message>
     <message>
         <location filename="../qml/pages/PositioningPage.qml" line="38"/>
         <source>Coordinate</source>
-        <translation type="unfinished"></translation>
+        <translation>Координата</translation>
     </message>
     <message>
         <location filename="../qml/pages/PositioningPage.qml" line="44"/>
         <source>Latitude</source>
-        <translation type="unfinished"></translation>
+        <translation>Широта</translation>
     </message>
     <message>
         <location filename="../qml/pages/PositioningPage.qml" line="50"/>
         <source>Longitude</source>
-        <translation type="unfinished"></translation>
+        <translation>Долгота</translation>
     </message>
     <message>
         <location filename="../qml/pages/PositioningPage.qml" line="56"/>
         <source>Altitude</source>
-        <translation type="unfinished"></translation>
+        <translation>Высота</translation>
     </message>
     <message>
         <location filename="../qml/pages/PositioningPage.qml" line="62"/>
         <source>Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Скорость</translation>
     </message>
     <message>
         <location filename="../qml/pages/PositioningPage.qml" line="63"/>
         <source>%1 meters / second</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 м / c</translation>
     </message>
 </context>
 </TS>
